@@ -4,7 +4,7 @@ import GlobalWarming from "../pages/GlobalWarming";
 
 export const routes = [
   {
-    path: "/",
+    path: "/dataviz/",
     exact: true,
     sidebar: () => null,
     main: () => <GlobalWarming />,
@@ -12,7 +12,7 @@ export const routes = [
     name: 'Schimbări climatice',
   },
   {
-    path: "/avalanche/",
+    path: "/dataviz/avalanche/",
     sidebar: () => null,
     main: () => <GlobalWarming />,
     icon: 'fal fa-mountain',
