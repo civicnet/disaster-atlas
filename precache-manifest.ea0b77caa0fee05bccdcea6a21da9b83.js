@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d379990483c56ec0e569ad3833179ca",
+    "revision": "b1858f6606fcc04f07c37020428f3482",
     "url": "/dataviz/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dataviz/static/css/2.6639d161.chunk.css"
   },
   {
-    "revision": "e1b4c59805a7870f3e48",
+    "revision": "4940d5c8e84a93ef564b",
     "url": "/dataviz/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dataviz/static/js/2.0bd8f7cc.chunk.js"
   },
   {
-    "revision": "e1b4c59805a7870f3e48",
-    "url": "/dataviz/static/js/main.6963b1f8.chunk.js"
+    "revision": "4940d5c8e84a93ef564b",
+    "url": "/dataviz/static/js/main.fed958b1.chunk.js"
   },
   {
     "revision": "4ac5500fc099aea8e32e",
