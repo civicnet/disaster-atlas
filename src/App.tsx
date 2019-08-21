@@ -181,13 +181,13 @@ const App: React.FC<Props> = (props: Props) => {
             {isDrawerOpen ? (
               <img
                 alt=""
-                src="/logos/logo_color.svg"
+                src={`${process.env.PUBLIC_URL}/logos/logo_color.svg`}
                 className={classes.symbolLogo}
               />
             ) : (
               <img
                 alt=""
-                src="/logos/simbol_color.svg"
+                  src={`${process.env.PUBLIC_URL}/logos/simbol_color.svg`}
                 className={classes.symbolLogo}
               />
             )}
