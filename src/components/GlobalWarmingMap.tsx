@@ -236,11 +236,15 @@ const ConnectedMap: React.FC<Props> = (props: Props) => {
       pickable: false,
       stroked: false,
       filled: true,
-      getPolygonOffset: () => [0, 100],
+      extruded: true,
+      // getPolygonOffset: () => [0, 100],
       getFillColor: (d: any, foo: any) => {
         return [0, 105, 148];
       },
       opacity: 0.5,
+      getElevation: (d: any) => {
+        return d.properties.level;
+      },
       transitions: {
         getFillColor: {
           duration: 600,
