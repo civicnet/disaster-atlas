@@ -22,7 +22,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import Map, { getCurrentSeaLevelIdx } from "../components/GlobalWarmingMap";
 import { AppState } from "../store";
 
-import { RegionType, GlobalWarmingState } from "../store/globalwarming/types";
+import { RegionType, GlobalWarmingState, Region } from "../store/globalwarming/types";
 import {
   fetchRegions,
   setPlaybackYear,
@@ -154,11 +154,43 @@ const ConnectedGlobalWarming: React.FC<Props> = (props: Props) => {
         return dmg.seaLevel === seaLevelIndex;
       })
     : null;
+/*
+  const damagesForAll = props.globalWarming.uats.reduce((acc: any, uat: Region) => {
+    const damagesForUat = (uat.properties.damages || []).find(dmg => {
+      return dmg.seaLevel === seaLevelIndex;
+    });
 
+    if (!damagesForUat) {
+      return acc;
+    }
+
+    const floodedArea = acc.floodedArea + damagesForUat.area.flooded;
+    const totalArea = acc.totalArea + uat.properties.totalArea;
+    const population = acc.population + uat.properties.pop2015;
+    const bldgs = acc.bldgs + Number(damagesForUat.bldgs);
+    const coverage = Number((floodedArea * 100) / totalArea).toFixed(2);
+    const refugees = Math.round((Number(coverage) / 100) * population);
+
+    return {
+      floodedArea,
+      totalArea,
+      coverage,
+      bldgs,
+      population,
+      refugees,
+    }
+  }, {
+    floodedArea: 0,
+    totalArea: 0,
+    coverage: 0,
+    bldgs: 0,
+    population: 0,
+    refugees: 0,
+  });
+   */
   return (
     <>
       <Map setSeaLevel={setSeaLevelTween} />
-
       {damagesForCurrentRegion && (
         <div className={classes.stats}>
           <Typography

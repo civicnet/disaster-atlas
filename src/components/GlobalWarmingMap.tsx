@@ -314,7 +314,7 @@ const ConnectedMap: React.FC<Props> = (props: Props) => {
 
   const mapboxStyleURL =
     process.env.NODE_ENV === "production"
-      ? "mapbox://styles/claudiuc/cjzfv9blf11q21cphdwsik2tr"
+      ? "mapbox://styles/claudiuc/cjzfv9blf11q21cphdwsik2tr/draft"
       : "mapbox://styles/claudiuc/cjzfv9blf11q21cphdwsik2tr/draft";
 
   return (
