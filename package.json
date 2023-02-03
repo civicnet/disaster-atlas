@@ -2,7 +2,7 @@
   "name": "dataviz",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://civicnet.github.io/dataviz",
+  "homepage": "https://civicnet.github.io/disaster-atlas/",
   "dependencies": {
     "@deck.gl/mapbox": "^7.2.2",
     "@mapbox/sphericalmercator": "^1.1.0",
