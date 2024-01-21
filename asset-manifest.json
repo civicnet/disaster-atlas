@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/dataviz/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/dataviz/static/js/main.07b8c6a9.chunk.js",
-    "main.js.map": "/dataviz/static/js/main.07b8c6a9.chunk.js.map",
-    "runtime~main.js": "/dataviz/static/js/runtime~main.cd602172.js",
-    "runtime~main.js.map": "/dataviz/static/js/runtime~main.cd602172.js.map",
-    "static/css/2.6639d161.chunk.css": "/dataviz/static/css/2.6639d161.chunk.css",
-    "static/js/2.cb4059f8.chunk.js": "/dataviz/static/js/2.cb4059f8.chunk.js",
-    "static/js/2.cb4059f8.chunk.js.map": "/dataviz/static/js/2.cb4059f8.chunk.js.map",
-    "index.html": "/dataviz/index.html",
-    "precache-manifest.9637b3188879595c3138758ca3739562.js": "/dataviz/precache-manifest.9637b3188879595c3138758ca3739562.js",
-    "service-worker.js": "/dataviz/service-worker.js",
-    "static/css/2.6639d161.chunk.css.map": "/dataviz/static/css/2.6639d161.chunk.css.map",
-    "static/css/main.5ecd60fb.chunk.css.map": "/dataviz/static/css/main.5ecd60fb.chunk.css.map"
+    "main.css": "/disaster-atlas/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/disaster-atlas/static/js/main.6b174354.chunk.js",
+    "main.js.map": "/disaster-atlas/static/js/main.6b174354.chunk.js.map",
+    "runtime~main.js": "/disaster-atlas/static/js/runtime~main.b804a0e2.js",
+    "runtime~main.js.map": "/disaster-atlas/static/js/runtime~main.b804a0e2.js.map",
+    "static/css/2.6639d161.chunk.css": "/disaster-atlas/static/css/2.6639d161.chunk.css",
+    "static/js/2.e9774af7.chunk.js": "/disaster-atlas/static/js/2.e9774af7.chunk.js",
+    "static/js/2.e9774af7.chunk.js.map": "/disaster-atlas/static/js/2.e9774af7.chunk.js.map",
+    "index.html": "/disaster-atlas/index.html",
+    "precache-manifest.75af5b71808e4739a8e348fdb9e6ff9f.js": "/disaster-atlas/precache-manifest.75af5b71808e4739a8e348fdb9e6ff9f.js",
+    "service-worker.js": "/disaster-atlas/service-worker.js",
+    "static/css/2.6639d161.chunk.css.map": "/disaster-atlas/static/css/2.6639d161.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/disaster-atlas/static/css/main.5ecd60fb.chunk.css.map"
   }
 }
